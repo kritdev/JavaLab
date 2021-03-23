@@ -17,6 +17,19 @@ public class Day10 {
     System.out.println(employee3.firstname); // Dang
     System.out.println(employee3.lastname); // Red
     System.out.println(employee3.getSalary()); // 20000
+
+    // 1. Create instance of class CEO and Employee
+    System.out.print("\nCEO: ");
+    CEO ceo = new CEO("John", "Black", 30000);
+    System.out.print(ceo.firstname + " ");
+    System.out.print(ceo.lastname + " ");
+    System.out.print(ceo.getSalary() + "\n");
+
+    System.out.print("\nEmployee: ");
+    Employee employee4 = new Employee("Dodo", "Blue", 10000);
+    System.out.print(employee4.firstname + " ");
+    System.out.print(employee4.lastname + " ");
+    System.out.print(employee4.getSalary() + "\n");
   }
 
 }
