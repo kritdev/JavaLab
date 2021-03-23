@@ -30,6 +30,14 @@ public class Day10 {
     System.out.print(employee4.firstname + " ");
     System.out.print(employee4.lastname + " ");
     System.out.print(employee4.getSalary() + "\n");
+
+    // 2. Create Programmer
+    Programmer programmer = new Programmer("Babo", "Green");
+    System.out.print("\nProgrammer: ");
+    System.out.print(programmer.firstname + " ");
+    System.out.print(programmer.lastname + " ");
+    System.out.print(programmer.getSalary() + "\n");
+    programmer.installWindows("NT Server 4.0", "abcd1234567890");
   }
 
 }
