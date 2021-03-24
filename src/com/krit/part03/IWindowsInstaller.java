@@ -1,0 +1,9 @@
+package com.krit.part03;
+
+public interface IWindowsInstaller {
+  public void formatWindows(String drive);
+
+  public void installWindows(String version, String productKey);
+
+  public int getLastInstalledWindowsVersion();
+}
