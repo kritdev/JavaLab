@@ -17,4 +17,8 @@ public class CEO extends Employee {
   public void fire(Employee employee) {
     System.out.println(employee.firstname + " has been fired!");
   }
+
+  public void orderWebsite(IWebsiteCreator creator) {
+    creator.createWebsite("some template", "Codecamp3");
+  }
 }
