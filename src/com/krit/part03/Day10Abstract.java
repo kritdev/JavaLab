@@ -10,11 +10,13 @@ public class Day10Abstract {
     knight.stand();
     knight.move();
     knight.attack();
+    knight.printKind();
 
     System.out.println("\n--- Godzilla ---");
     godzilla.stand();
     godzilla.move();
     godzilla.attack();
+    godzilla.printKind();
 
     // Test final variable
     // knight.nationality = "Thai"; // Error: final property cannot be assigned.

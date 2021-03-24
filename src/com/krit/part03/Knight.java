@@ -2,6 +2,11 @@ package com.krit.part03;
 
 public class Knight extends Earthling {
 
+  public Knight() {
+    super();
+    this.kind = Kind.HUMAN;
+  }
+
   @Override
   public void move() {
     System.out.println("Move move..");
