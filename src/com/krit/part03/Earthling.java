@@ -10,7 +10,7 @@ abstract class Earthling {
   public abstract void attack();
 
   // Remember : Non-abstract methods are also allowed
-  public void stand() {
+  public final void stand() {
     System.out.println("Stand Still...");
   }
 }

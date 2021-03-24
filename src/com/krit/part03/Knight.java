@@ -12,4 +12,8 @@ public class Knight extends Earthling {
     System.out.println("For the King.. Attack..");
   }
 
+  // //Cannot override the final method
+  // public void stand() {
+  // System.out.println("Knight Stand Still...");
+  // }
 }
