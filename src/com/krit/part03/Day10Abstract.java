@@ -15,6 +15,9 @@ public class Day10Abstract {
     godzilla.stand();
     godzilla.move();
     godzilla.attack();
+
+    // Test final variable
+    // knight.nationality = "Thai"; // Error: final property cannot be assigned.
   }
 
 }
