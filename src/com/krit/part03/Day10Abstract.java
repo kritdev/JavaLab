@@ -20,4 +20,10 @@ public class Day10Abstract {
     // knight.nationality = "Thai"; // Error: final property cannot be assigned.
   }
 
+  class Warior extends Knight {
+  }
+
+  // Error cannot subclass the final class.
+  // class SuperZilla extends Godzilla {}
+
 }

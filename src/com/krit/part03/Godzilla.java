@@ -1,6 +1,6 @@
 package com.krit.part03;
 
-public class Godzilla extends Earthling {
+public final class Godzilla extends Earthling {
 
   @Override
   public void move() {
